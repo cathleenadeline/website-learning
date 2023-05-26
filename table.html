@@ -8,6 +8,7 @@
 	}
 .format table th{
 	border : 1px solid #c098cc;
+	background-color : #c098cc;
 	
 	}
 </style>
@@ -15,6 +16,7 @@
 <body>
 <div class ="format">
 	<table>
+		<thead>
 		<tr>
 			<th>No.</th>
 			<th>Types of Goods</th>
@@ -22,6 +24,9 @@
 			<th>Stocks</th>
 			<th>Solds</th>
 		</tr>
+		</thead>
+		
+		<tbody>
 		<tr>
 			<td rowspan = "2" >1</td>
 			<td rowspan = "2" >Camelia bag</td>
@@ -46,10 +51,14 @@
 			<td>100</td>
 			<td>100</td>
 			</tr>
+		</tbody>
+
+		<tfoot>	
 		<tr>
 			<td> </td>
 			<td colspan = "4"> very high demand: camelia bag-black </td>
 		</tr>	
+		</tfoot>
 	</table>
 </body>
 </html>	
