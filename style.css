@@ -20,6 +20,12 @@ p:first-of-type{
 a:hover{
 	outline : 1px dotted blue;
 }
-a{color : purple; }
+a{
+	color : purple; 
+}
+
+body{
+	background: linear-gradient(#eeaeca,#94bbe9);
+}
 
 
