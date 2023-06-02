@@ -9,6 +9,9 @@ p.one {
 p.three{
 	color:transparent;
 }
-
+p:two-of-type{
+	color: #E4A4C2;
+	font-size: 1.5em;
+}
 
 
