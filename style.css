@@ -20,5 +20,6 @@ p:first-of-type{
 a:hover{
 	outline : 1px dotted blue;
 }
+a{color : purple; }
 
 
