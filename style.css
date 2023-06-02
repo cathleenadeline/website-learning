@@ -1,17 +1,24 @@
 /*tulisan header warna biru */
+
+*{
+color: hotpink; }
 h1{ color: #5293BB}
 
 h1,p{text-align:center;}
 
-p.one {
+/*p.one {
 	color:rgb(60, 68, 137);
-}
+}*/
 p.three{
 	color:transparent;
 }
-p:two-of-type{
+p:first-of-type{
 	color: #E4A4C2;
 	font-size: 1.5em;
+}
+
+a:hover{
+	outline : 1px dotted blue;
 }
 
 
