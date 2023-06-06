@@ -3,8 +3,8 @@ body {
 	text-align : center;
 	}
 
-.h1 {
-	background : linear-gradient(rgb(226,185,200));
+h1 {
+	background : linear-gradient(rgb(226,185,200),rgb(199,157,242));
 	-webkit-background-clip: text;
 	background-clip: text;
 	color: transparent;
@@ -19,3 +19,13 @@ body {
 	height : 400px;
 	background-size : cover;
 }	
+
+.card1 {
+	border: 5px solid transparent;
+	border-image : linear-gradient(to bottom, rgb(216,201,245), rgb(179,165,206));
+	border-image-slice : 1;
+	width : 8rem;
+	padding : 5rem 2rem;
+	margin : 5rem auto;
+	font-size : 100px;
+}
