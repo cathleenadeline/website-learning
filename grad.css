@@ -1,0 +1,13 @@
+body {
+	background : #f2f2f2;
+	text-align : center;
+	}
+	
+.white{
+	background:
+	linear-gradient(to right, rgba(188,215,213,0.5), rgba(235,217,167,0.3), url(https://i.pinimg.com/564x/88/e7/80/88e78099e5a7794b96b30f42fbd78d4b.jpg);
+	
+	width : 100vw;
+	height : 100vh;
+	background-size : cover;
+}	
