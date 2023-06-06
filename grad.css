@@ -2,7 +2,9 @@ body {
 	background : #f2f2f2;
 	text-align : center;
 	}
-
+header {
+	border-bottom : 2px dashed silver;
+}
 h1 {
 	background : linear-gradient(rgb(226,185,200),rgb(199,157,242));
 	-webkit-background-clip: text;
@@ -20,6 +22,9 @@ h1 {
 	background-size : cover;
 }	
 
+main {
+	border : 5px dotted #BEECC7;
+}
 .card1 {
 	border: 5px solid transparent;
 	border-image : linear-gradient(to bottom, rgb(216,201,245), rgb(179,165,206));
@@ -28,4 +33,7 @@ h1 {
 	padding : 5rem 2rem;
 	margin : 5rem auto;
 	font-size : 100px;
+}
+footer {
+	border-top : 3px double silver;
 }
