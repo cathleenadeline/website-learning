@@ -54,7 +54,7 @@ main {
 
 blockquote {
 	padding : 20px;
-	box-shadow : 3px 3px #BAD0EC, -1em 0.4 #CBCAEF;
+	box-shadow : 3px 3px #BAD0EC, -1em 0.4em #CBCAEF;
 }
 h4 {
 	font:1.5em 'PlayFair', serif;
@@ -64,6 +64,14 @@ h4 {
 h5 {
 	font: 1.5em 'Major Mono Display', serif;
 }
+
+.textbox {
+	writing mode : sideway-rl;
+	position: absolute;
+	inset: 20px 40px 30px 10px;
+	background-color: #F25589;
+}
+	
 footer {
 	border-top : 3px double silver;
 }
