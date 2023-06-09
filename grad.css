@@ -50,6 +50,10 @@ main {
   75%  {top: 100px; left: 0px; background: green;}
   100% {top: 0px; left: 0px; background: red;}
 }
+
+h4 {
+	font: italic 1.2em "copperplate", serif;
+}
 footer {
 	border-top : 3px double silver;
 }
