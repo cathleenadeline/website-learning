@@ -52,6 +52,10 @@ main {
   100% {top: 0px; left: 0px; background: red;}
 }
 
+blockquote {
+	padding : 20px;
+	box-shadow : 3px 3px #BAD0EC, -1em 0.4 #CBCAEF;
+}
 h4 {
 	font:1.5em 'PlayFair', serif;
 	font-weight : bolder;
