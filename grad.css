@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Playfair+Display&display=swap');
 body {
 	background : #f2f2f2;
 	text-align : center;
@@ -54,6 +55,10 @@ main {
 h4 {
 	font:1.5em 'PlayFair', serif;
 	font-weight : bolder;
+}
+
+h5 {
+	font: 1.5em 'Major Mono Display', serif;
 }
 footer {
 	border-top : 3px double silver;
