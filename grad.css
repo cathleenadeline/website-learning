@@ -53,6 +53,7 @@ main {
 
 h4 {
 	font: italic 1.2em "copperplate", serif;
+	font-weight : bolder;
 }
 footer {
 	border-top : 3px double silver;
